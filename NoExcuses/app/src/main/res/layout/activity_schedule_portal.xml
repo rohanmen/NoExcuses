@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/gym_pic"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gym"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:background="@drawable/noexcuses_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:text="Set Schedule"
+        android:id="@+id/set_schedule"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:background="@drawable/noexcuses_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:text="See All Workouts"
+        android:id="@+id/see_workouts"
+        android:layout_below="@id/set_schedule"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/noexcuses_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/see_workouts"
+        android:layout_marginTop="70dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:text="Quick Workout"
+        android:id="@+id/work_out"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

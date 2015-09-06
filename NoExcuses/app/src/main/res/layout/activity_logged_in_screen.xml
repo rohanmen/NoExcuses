@@ -1,0 +1,194 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="noexcuses.venkat.noexcuses.LoggedInScreen"
+    android:id="@+id/activity_logged_in_screen">
+
+    <ImageView android:id="@+id/gym_pic"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gym"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FontStyle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome back &lt;NAME>! We&apos;re delighted to see you!"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FontStyle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/nameView"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        /> </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/activity_logged_in"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:background="@drawable/noexcuses_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="Schedule"
+            android:id="@+id/button"
+            android:layout_below="@+id/textView14"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            style="@style/FontStyle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tap for the schedule and the workouts!"
+            android:id="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="128dp" />
+
+        <Button
+            android:background="@drawable/noexcuses_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Best Workout"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:id="@+id/button2"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Too lazy? Tap for the best workout!"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/userNameView"
+            style="@style/FontStyle"
+            android:layout_above="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Switch
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutsw"
+            android:checked="false"
+            android:textOff="Log Out"
+            android:textOn="Log Out"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/userNameView"
+            android:layout_alignEnd="@+id/userNameView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Slide to Log Out:"
+            android:id="@+id/textView12"
+            android:layout_above="@+id/logoutsw"
+            android:layout_alignRight="@+id/logoutsw"
+            android:layout_alignEnd="@+id/logoutsw" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+        <TextView
+            style="@style/FontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lifting right now? Track your weights!"
+            android:id="@+id/textView"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"/>
+        <Button
+            android:background="@drawable/noexcuses_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go lift!"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:id="@+id/liftButton"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:background="@drawable/noexcuses_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Preferences"
+            android:textSize="14dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:id="@+id/changeInfo"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</FrameLayout>
+

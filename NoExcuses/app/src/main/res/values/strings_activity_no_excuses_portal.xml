@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">NoExcuses Username</string>
+    <string name="prompt_password">NoExcuses Password</string>
+    <string name="action_sign_in">Sign In/ New Profile</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_invalid_password">NoExcuse Passcode formatted incorrectly!</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">Please enter ALL fields to log in!</string>
+
+
+
+    <string name="spinner_prompt">Choose an exercise concentration</string>
+
+    <string-array name="exercise_array">
+        <item>Cardio (Weightloss)</item>
+        <item>Cardio (Maintenance)</item>
+        <item>Powerlifting</item>
+        <item>Strength Training</item>
+        <item>Bodybuilding</item>
+    </string-array>
+
+    <string-array name="intensity_array">
+        <item>Low Intensity (Steady State Workouts)</item>
+        <item>Medium Intensity (Steady State and HIIT Workouts)</item>
+        <item>High Intensity (HIIT Workouts)</item>
+        <item>Super High Intensity Workouts (Cardio Acceleration)</item>
+    </string-array>
+
+    <string-array name="yes_no_array">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

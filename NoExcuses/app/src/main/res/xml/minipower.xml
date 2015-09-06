@@ -1,0 +1,72 @@
+<Workout>
+        <name>Minimalist Power</name>
+        <concentration>5</concentration>
+        <length>70</length>
+        <days>2</days>
+        <Routine>
+            <Day>
+                <type>First</type>
+                <Movement>
+                    <name>Squat</name>
+                    <sets>3</sets>
+                    <reps>5</reps>
+                    <weight>50</weight>
+                </Movement>
+                <Movement>
+                    <name>Lunges</name>
+                    <sets>3</sets>
+                    <reps>10</reps>
+                </Movement>
+                <Movement>
+                    <name>Stiff Deadlift</name>
+                    <sets>3</sets>
+                    <reps>8</reps>
+                    <weight>120</weight>
+                </Movement>
+                <Movement>
+                    <name>Calf Raises</name>
+                    <sets>3</sets>
+                    <reps>15</reps>
+                    <weight>50</weight>
+                </Movement>
+                <Movement>
+                    <name>Hanging Leg Raises</name>
+                    <sets>3</sets>
+                    <reps>10</reps>
+                    <weight>50</weight>
+                </Movement>
+            </Day>
+            <Day>
+                <type>Second</type>
+                <Movement>
+                    <name>Close Grip Bench</name>
+                    <sets>3</sets>
+                    <reps>5</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Overhead Press</name>
+                    <sets>3</sets>
+                    <reps>5</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Kroc Rows</name>
+                    <sets>3</sets>
+                    <reps>15</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Pullups</name>
+                    <sets>3</sets>
+                    <reps>Failure</reps>
+                </Movement>
+                <Movement>
+                    <name>Dumbbell Curls</name>
+                    <sets>3</sets>
+                    <reps>12</reps>
+                    <weight>20</weight>
+                </Movement>
+            </Day>
+        </Routine>
+    </Workout>

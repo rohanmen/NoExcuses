@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoExcuses</string>
+    <string name="title_activity_information_req">NoExcuses New Account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_logged_in_screen">NoExcuses Dashboard</string>
+    <string name="title_activity_fitness_portal">FitnessPortal</string>
+    <string name="title_activity_workout_tracker">WorkoutTracker</string>
+    <string name="title_activity_workout_display">WorkoutDisplay</string>
+    <string name="title_activity_weight_tracking">WeightTracking</string>
+    <string name="title_activity_quick_workout_display">QuickWorkoutDisplay</string>
+    <string name="dialog_message">Change your concentration.</string>
+    <string name="concentrations">Concentrations</string>
+    <string name="title_activity_body_part_display">BodyPartDisplay</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workout>
+        <name>Stronglifts 5x5</name>
+        <concentration>4</concentration>
+        <length>90</length>
+        <days>3</days>
+        <Routine>
+            <Day>
+                <type>First</type>
+                <Movement>
+                    <name>Squat</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>55</weight>
+                </Movement>
+                <Movement>
+                    <name>Bench</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Barbell Row</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>50</weight>
+                </Movement>
+            </Day>
+            <Day>
+                <type>Second</type>
+                <Movement>
+                    <name>Squat</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>60</weight>
+                </Movement>
+                <Movement>
+                    <name>Overhead Press</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Deadlift</name>
+                    <sets>1</sets>
+                    <reps>5</reps>
+                    <weight>110</weight>
+                </Movement>
+            </Day>
+            <Day>
+                <type>Third</type>
+                <Movement>
+                    <name>Squat</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>60</weight>
+                </Movement>
+                <Movement>
+                    <name>Bench</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>45</weight>
+                </Movement>
+                <Movement>
+                    <name>Barbell Row</name>
+                    <sets>5</sets>
+                    <reps>5</reps>
+                    <weight>55</weight>
+                </Movement>
+            </Day>
+        </Routine>
+</Workout>

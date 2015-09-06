@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="noexcuses.venkat.noexcuses" >
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/noexcuses_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="TestNoExcuses2.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="noexcuses.venkat" />
+
+        <activity
+            android:name=".NoExcusesPortal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FitnessInformationRequisition"
+            android:label="@string/title_activity_information_req"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoggedInScreen"
+            android:label="@string/title_activity_logged_in_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FitnessPortal"
+            android:label="@string/title_activity_fitness_portal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="schedule.DailyScheduleActivity"
+            android:label="DailyScheduleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="schedule.ScheduleWeekActivity"
+            android:label="ScheduleWeekActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="schedule.AllWorkoutsActivity"
+            android:label="AllWorkoutsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WorkoutTracker"
+            android:label="Your Exercises"
+            android:screenOrientation="portrait"
+            android:theme="@style/WorkoutTracker" >
+        </activity>
+        <activity
+            android:name=".Workouts.WorkoutDisplay"
+            android:label="@string/title_activity_workout_display"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HistoryTracker"
+            android:label="@string/title_activity_weight_tracking"
+            android:screenOrientation="portrait"
+            android:theme="@style/WorkoutTracker">
+        </activity>
+        <activity
+            android:name=".Workouts.QuickWorkoutDisplay"
+            android:label="@string/title_activity_quick_workout_display" >
+        </activity>
+        <activity
+            android:name=".ChangePreferences"
+            android:label="Change Preference"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Workouts.BodyPartDisplay"
+            android:label="@string/title_activity_body_part_display" >
+        </activity>
+        <receiver android:name=".AlarmReciever">
+            <intent-filter>
+                <action android:name="REFRESH_THIS"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
